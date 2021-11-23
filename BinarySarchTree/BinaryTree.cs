@@ -56,7 +56,7 @@ namespace BinarySarchTree
         public void size()
         {
             int num=find(Root);
-            Console.WriteLine("size of Binary Tree is: " + count);
+            Console.WriteLine("size of Binary Tree is: " + num);
             int find(Node Parent){
                 if (Parent != null)
                 {
